@@ -1,3 +1,5 @@
+import React from "react";
+
 function CartWidget() {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: "5px" }}>
