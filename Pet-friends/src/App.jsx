@@ -1,12 +1,14 @@
-import React from 'react';
+import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
 
 function App() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Mi Proyecto React</h1>
-      <p>Bienvenido a la interfaz principal de la aplicación.</p>
-    </div>
+    <>
+      <NavBar />
+      <ItemListContainer greeting="Bienvenido a Pet Friends" />
+    </>
   );
 }
 
 export default App;
+  
